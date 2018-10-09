@@ -1,0 +1,32 @@
+{
+  "name": "transit-gateway",
+  "version": "1.0.0",
+  "description": "Helper to php server for thousands data sending to chatfuel broadcast.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "chatfuel-broadcast": "^1.0.0",
+    "express": "^4.16.3",
+    "file-system": "^2.2.2",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phyowailinn/transit-gateway.git"
+  },
+  "keywords": [
+    "transit",
+    "chatfuel-broadcast",
+    "laravel"
+  ],
+  "author": "phyowailinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phyowailinn/transit-gateway/issues"
+  },
+  "homepage": "https://github.com/phyowailinn/transit-gateway#readme"
+}
